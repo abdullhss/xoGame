@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.contener{
+    width: 500px ;
+    height: 450px;
+    margin: 15px auto;
+}
+.chois{
+    width:130px;
+    height:130px;
+    background-color: blue;
+    float:left ;
+    width: 32%;
+    margin: 3.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 80px;
+    font-weight: 900;
+}
+.chois:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.header{
+    height: 60px;
+    margin-bottom: 15px;
+    background-color: brown;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header span{
+    color: red ;
+
+}
+.clear{
+    clear:both;
+}
+.dashbord{
+    width:500px  ;
+    margin-right: 50px;
+    margin-top: 15px;
+    height: 70px;
+    background-color: brown;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+}
+.Ptns{  
+    display: flex;
+    position: absolute;
+    justify-content:space-around;
+    align-items: center;
+    right: 20px;
+    bottom: 20px;
+}
+.reset{
+    background-color: rgba(0,0,255,0.7);
+    font-size: 25px;
+    border-radius: 5px;
+    padding:0px 5px 0px 5px;
+    margin-right: 15px;
+    border: rgb(46, 42, 42) 1px solid;
+}
+.again{
+    background-color: rgba(0,0,255,0.7);
+    font-size: 25px;
+    border-radius: 5px;
+    padding:0px 5px 0px 5px;
+    margin-right: 15px;
+    border: rgb(46, 42, 42) 1px solid;
+}
+.winner {
+    background-color: brown;
+    color: white;
+}
